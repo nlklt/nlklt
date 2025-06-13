@@ -1,16 +1,22 @@
-## Hi there 👋
+## 𝙁𝙤𝙘𝙪𝙨: 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩 𝙖𝙣𝙙 𝙍𝙚𝙨𝙚𝙖𝙧𝙘𝙝
 
-<!--
-**nlklt/nlklt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=,cpp,js,html,css,linux,bash" />
+</p>
 
-Here are some ideas to get you started:
+## 📊 GitHub Статистика
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=xhm&show_icons=true&theme=github_dark" alt="stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=xhm&theme=dark" alt="streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xhm&layout=compact&theme=radical" />
+
+</p>
+
+<img src="assets/tech_glass_hover.svg" width="500" alt="Tech stack" />
+
+## Для связи
+
+<p align="center">
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
