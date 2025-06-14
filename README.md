@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp,js,html,css,linux,bash" />
 </p>
-<!-- <img src="assets/cpp1.svg" alt="Изображение профиля с эффектом наведения" /> -->
+<img src="assets/cpp1.svg" alt="Изображение профиля с эффектом наведения" />
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
   <style>
