@@ -44,4 +44,57 @@
        onmouseover="this.src='https:/raw.githubusercontent.com/nlklt/nlklt/main/assets/cpp1.svg'"
        onmouseout="this.src='raw.githubusercontent.com/nlklt/nlklt/main/assets/cpp1.svg'"
        width="100" alt="Glowing SVG icon"/>
-</a>
+</a>\
+
+
+
+<svg width="100%" height="100%">
+  <style>
+    .normal-image { display: block; }
+    .hover-image { display: none; }
+    svg:hover .normal-image { display: none; }
+    svg:hover .hover-image { display: block; }
+  </style>
+  <image class="normal-image" xlink:href="assets/cpp1.svg" width="100%" height="100%"/>
+  <image class="hover-image" xlink:href="assets/cpp2.svg" width="100%" height="100%"/>
+</svg>
+
+
+<svg width="100%" height="100%">
+  <image id="profile-image" xlink:href="assets/cpp1.svg" width="100%" height="100%"/>
+</svg>
+
+<script>
+  const profileImage = document.getElementById('profile-image');
+  
+  profileImage.addEventListener('mouseover', () => {
+    profileImage.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'assets/cpp2.svg');
+  });
+  
+  profileImage.addEventListener('mouseout', () => {
+    profileImage.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', 'assets/cpp1.svg');
+  });
+</script>
+
+<svg width="100%" height="100%">
+  <g id="image-group">
+    <image id="normal-image" xlink:href="assets/cpp1.svg" width="100%" height="100%"/>
+    <image id="hover-image" xlink:href="assets/cpp2.svg" width="100%" height="100%" style="display: none;"/>
+  </g>
+</svg>
+
+<script>
+  const imageGroup = document.getElementById('image-group');
+  const normalImage = document.getElementById('normal-image');
+  const hoverImage = document.getElementById('hover-image');
+  
+  imageGroup.addEventListener('mouseover', () => {
+    normalImage.setAttribute('display', 'none');
+    hoverImage.setAttribute('display', 'inline');
+  });
+  
+  imageGroup.addEventListener('mouseout', () => {
+    hoverImage.setAttribute('display', 'none');
+    normalImage.setAttribute('display', 'inline');
+  });
+</script>
