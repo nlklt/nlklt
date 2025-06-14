@@ -13,10 +13,17 @@
 
 </p>
 
-<img src="assets/tech_glass_hover.svg" width="500" alt="Tech stack" />
-
 ## Для связи
 
 <p align="center">
   <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
+
+<a href="#">
+  <img src="https://raw.githubusercontent.com/nlklt/nlklt/main/assets/icon-normal.svg"
+       onmouseover="this.src='https://raw.githubusercontent.com/nlklt/nlklt/main/assets/cpp1.svg'"
+       onmouseout="this.src='https://raw.githubusercontent.com/nlklt/nlklt/main/assets/cpp1.svg'"
+       width="100" alt="Glowing SVG icon"/>
+</a>
+
+
