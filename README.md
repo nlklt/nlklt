@@ -20,8 +20,8 @@
       display: block;
     }
   </style>
-  <image class="normal-image" xlink:href="assets/cpp1.svg" width="100%" height="100%"/>
-  <image class="hover-image" xlink:href="assets/cpp2.svg" width="100%" height="100%" />
+  <image class="normal-image" xlink:href="https://github.com/nlklt/nlklt/blob/main/assets/cpp1.svg" width="100%" height="100%"/>
+  <image class="hover-image" xlink:href="https://github.com/nlklt/nlklt/blob/main/assets/cpp2.svg" width="100%" height="100%"/>
 </svg>
 
 ## 📊 GitHub Статистика
